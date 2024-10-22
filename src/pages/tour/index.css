@@ -1,0 +1,32 @@
+.dashboard-card {
+  background-color: hsla(0, 0%, 100%, 0.35);
+  border-radius: 16px;
+  box-shadow: 3px 3px 6px 0 rgba(0, 0, 0, 0.47);
+  min-height: 12.5rem;
+  padding: 0 50px;
+}
+.dashboard-corner-card {
+  position: relative;
+  min-height: 12.5rem;
+  padding: 0 50px;
+}
+.dashboard-corner-card:before,
+.dashboard-corner-card:after {
+  content: "";
+  display: block;
+  height: 8.75rem;
+  position: absolute;
+  width: 11.25rem;
+}
+.dashboard-corner-card:before {
+  border-left: 3px solid #5a5a5a;
+  border-top: 3px solid #5a5a5a;
+  left: 0.3125rem;
+  top: 0.3125rem;
+}
+.dashboard-corner-card:after {
+  border-bottom: 3px solid #5a5a5a;
+  border-right: 3px solid #5a5a5a;
+  bottom: 0.3125rem;
+  right: 0.3125rem;
+}
